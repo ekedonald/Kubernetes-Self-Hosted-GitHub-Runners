@@ -4,9 +4,11 @@ This guide will walk you through the process of installing and configuring a Sel
 
 ### Prerequisites
 - **Repository Access**: Create a GitHub Organization and fork one of your repos to it.
-- **Kubernetes Cluster**: Use an existing Kubernetes cluster or set up a new one ([Minikube]((https://minikube.sigs.k8s.io/docs/start/?arch=%2Fmacos%2Fx86-64%2Fstable%2Fbinary+download)), GKE, EKS or AKS).
+- **Kubernetes Cluster**: Use an existing Kubernetes cluster or set up a new one ([Minikube](https://minikube.sigs.k8s.io/docs/start/?arch=%2Fmacos%2Fx86-64%2Fstable%2Fbinary+download), GKE, EKS or AKS).
 - **Kubectl**: Install the Kubernetes command-line tool [kubectl](https://kubernetes.io/docs/tasks/tools/) and configure it to connect to your cluster.
 - **Helm**: Install [Helm](https://helm.sh/docs/intro/install/), the Kubernetes package manager.
+
+_**Note:** If you are using Minikube, install Docker and select it as your preferred driver._
 
 The following steps are taken to install a Self-Hosted GitHub Actions Runner on a Kubernetes Cluster:
 
