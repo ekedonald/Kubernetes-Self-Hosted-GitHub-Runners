@@ -8,7 +8,7 @@ This guide will walk you through the process of installing and configuring a Sel
 - **Kubectl**: Install the Kubernetes command-line tool [kubectl](https://kubernetes.io/docs/tasks/tools/) and configure it to connect to your cluster.
 - **Helm**: Install [Helm](https://helm.sh/docs/intro/install/), the Kubernetes package manager.
 
-_**Note:** If you are using Minikube, install Docker and select it as your preferred driver._
+_**Note:** If you are using Minikube, install [Docker](https://docs.docker.com/engine/install/debian/) and select it as your preferred driver._
 
 The following steps are taken to install a Self-Hosted GitHub Actions Runner on a Kubernetes Cluster:
 
