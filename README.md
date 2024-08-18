@@ -1,6 +1,6 @@
 # Kubernetes Self-Hosted GitHub Runners
 
-This guide will walk you through the process of installing a Self-Hosted GitHub Actions Runner on a Kubernetes Cluster.
+This guide will walk you through the process of installing and configuring a Self-Hosted GitHub Actions Runner on a Kubernetes Cluster.
 
 ### Prerequisites
 - **Repository Access**: Create a GitHub Organization and fork one of your repos to it.
