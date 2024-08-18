@@ -106,3 +106,4 @@ kubectl logs -f <POD_NAME>
 ```
 
 ![pod logs](./images/2%20pod%20logs.png)
+![completed job](./images/completed%20job.png)
